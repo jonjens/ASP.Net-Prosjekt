@@ -31,5 +31,7 @@ namespace CodingChallengeAsp.Data
 
         public DbSet<CodingChallengeAsp.Models.PlayerSponsor> PlayerSponsor { get; set; }
 
+        public DbSet<CodingChallengeAsp.Models.MapModel> MapModel { get; set; }
+
     }
 }
