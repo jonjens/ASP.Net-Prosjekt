@@ -33,5 +33,6 @@ namespace CodingChallengeAsp.Data
 
         public DbSet<CodingChallengeAsp.Models.MapModel> MapModel { get; set; }
 
+
     }
 }

@@ -27,7 +27,6 @@ namespace CodingChallengeAsp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-
             services.AddDbContext<FootballContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("FootballContext")));
 
